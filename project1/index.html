@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMST 388 Project 1</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <div id="wrapper">
+    
+    <div class="row">
+      <h1>The Animal Kingdom</h1>
+    </div>
+
+    <div class="row">
+      <div id="thumbnails">
+        <img src="media/elephants.jpg" width="19.375%" height="19.5%" alt="Elephant and its Child" onmouseover="hoverIMG(this)" onmousedown="selectIMG(this)">
+        <img src="media/leopard.jpg" width="19.375%" height="19.5%" alt="Leopard in a Tree" onmouseover="hoverIMG(this)" onmousedown="selectIMG(this)">
+        <img src="media/polar-bear.jpg" width="19.375%" height="19.5%" alt="Polar Bear Waving" onmouseover="hoverIMG(this)" onmousedown="selectIMG(this)">
+        <img src="media/turtle.jpg" width="19.375%" height="19.5%" alt="Sea Turtle Swimming" onmouseover="hoverIMG(this)" onmousedown="selectIMG(this)">
+        <img src="media/meerkats.jpg" width="19.375%" height="19.5%" alt="A Family of Meerkats" onmouseover="hoverIMG(this)" onmousedown="selectIMG(this)">
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="mainIMG">
+        <img src="media/elephants.jpg" alt="" id="largeIMG">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="caption">
+        <p id="caption"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/image-gallery.js"></script>
+</body>
+</html>
